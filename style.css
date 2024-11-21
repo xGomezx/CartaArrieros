@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Imprima&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+
+.edu-au-vic-wa-nt-pre-Font {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
 
 .header{
     width: 100vw;
@@ -9,19 +17,23 @@
     background-color: rgb(226, 167, 3);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
 
 }
 
 .logo{
     contain: content;
-    width: 18vw;
-    height: 80%;
+    width: 24vw;
+    height: 11vh;
+    padding: 0 0.5rem;
 }
 
 .title{
     text-align: center;
+    font-size: 2.2rem;
+    color: #56300B;
 }
 .menu{
-    width: 5vw;
+    width: 10vw;
+    padding: 0 0.5rem;
 }
