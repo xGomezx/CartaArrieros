@@ -37,3 +37,49 @@
     width: 10vw;
     padding: 0 0.5rem;
 }
+
+.sidebar {
+    text-align: center;
+    width: 250px;
+    height: 100%;
+    background-color: #925517;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: -250px; /* Oculto inicialmente en el lado derecho */
+    transition: 0.3s;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-image: url('./img/fondoHover.png'); /* Reemplaza con tu URL de imagen */
+    background-size: cover; /* Asegura que la imagen cubra completamente el fondo */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 5px;
+}
+
+.close{
+    text-align: end;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: 0;
+}
