@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .edu-au-vic-wa-nt-pre-Font {
     font-family: "Edu AU VIC WA NT Pre", cursive;
     font-optical-sizing: auto;
@@ -17,8 +21,8 @@
     background-color: rgb(226, 167, 3);
     display: flex;
     align-items: center;
-    
-
+    position: fixed;
+    top: 0;
 }
 
 .logo{
